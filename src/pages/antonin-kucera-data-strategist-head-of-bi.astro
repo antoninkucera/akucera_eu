@@ -1,0 +1,117 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SpeakingItemCard from '../components/SpeakingItemCard.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { contentEN } from '../data/content';
+
+const c = contentEN;
+---
+
+<Layout content={c} lang="en">
+  <!-- 1:1 Bio Header -->
+  <section class="py-8 space-y-6">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-mono">
+      Data Strategist & Head of BI, Data Science & Ad Operations
+    </div>
+
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white font-serif tracking-tight leading-tight">
+      Antonín Kučera: Being data-informed, not data-driven
+    </h1>
+
+    <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 text-slate-300 space-y-4 text-base leading-relaxed">
+      <p>
+        <strong class="text-white">Hello! I am Antonín Kučera</strong>, a data leader with over <strong class="text-white">13 years of experience</strong> in digital consulting and business intelligence. Currently, I work as the <strong class="text-white">Head of Business Intelligence at Livesport</strong>, a global sports media company, where I lead teams of analysts, engineers, and scientists.
+      </p>
+      
+      <p class="text-indigo-300 font-medium text-lg">
+        My mission is simple: I don’t just “manage data”—I build data-informed cultures.
+      </p>
+
+      <p>
+        I believe that having data isn’t enough. The real challenge and my passion lies in <strong class="text-white">Data Strategy, Governance, AI and Literacy</strong>. I focus on moving from being blindly “data-driven” to being intelligently <strong class="text-white">“data-informed,”</strong> ensuring that insights actually drive revenue and user satisfaction.
+      </p>
+    </div>
+  </section>
+
+  <!-- Journey Section -->
+  <section class="py-10 border-t border-slate-800/60 space-y-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-white font-serif">My Data Analytics Journey</h2>
+
+    <div class="space-y-4 text-slate-300 leading-relaxed">
+      <p>
+        My path wasn’t linear. I started my career deep in digital marketing, especially in SEO and data analytics. I worked in technical roles, starting at Livesport as a <strong class="text-white">Web Analyst</strong> and <strong class="text-white">ETL Developer</strong>, building pipelines in SQL and R and visualizing data in R Shiny.
+      </p>
+      <p>
+        I built more complex pipelines and automation, primarily in the MySQL environment and R language. In addition, I handled user research and conducted our first A/B testing.
+      </p>
+      <p>
+        Before I started leading the analytics team, I worked as an analyst and researcher, and we began migrating the first data pipelines to <strong class="text-indigo-400">Google Cloud Platform</strong>, which I literally fell in love with.
+      </p>
+      <p>
+        In 2020, we began building a Business Intelligence team at Livesport as a dedicated unit covering many topics. We built three internal analytical streams focused on specific tasks. My main responsibility was to recruit people, build teams, and align with company strategy. I spend all remaining time testing Google Cloud services, primarily <strong class="text-white">BigQuery</strong>, and working with AI and its impact on BI.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+      <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-3">
+        <div class="p-2 rounded-lg bg-indigo-500/10 text-indigo-400 font-bold font-mono">10+</div>
+        <div>
+          <h3 class="font-bold text-white text-sm">Livesport (10+ Years)</h3>
+          <p class="text-xs text-slate-400">Rose from Web Analyst to Head of BI, overseeing data strategy for 100M+ global users.</p>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-3">
+        <div class="p-2 rounded-lg bg-blue-500/10 text-blue-400 font-bold font-mono">VŠE</div>
+        <div>
+          <h3 class="font-bold text-white text-sm">Master's Degree (Ing.)</h3>
+          <p class="text-xs text-slate-400">Information Management from the Prague University of Economics and Business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Public Speaking & Knowledge Sharing with ALL exact links -->
+  <section class="py-10 border-t border-slate-800/60 space-y-6">
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-white font-serif mb-2">🎙️ Public Speaking & Knowledge Sharing</h2>
+      <p class="text-slate-400 text-sm">
+        I am passionate about sharing my experience in building data teams and advocating for data culture. I occasionally speak at data events and podcasts:
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      {c.speaking.items.map((item) => (
+        <SpeakingItemCard item={item} />
+      ))}
+    </div>
+  </section>
+
+  <!-- What I Write About / Substack -->
+  <section class="py-10 border-t border-slate-800/60">
+    <div class="p-8 rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold text-white font-serif">What I Write About</h2>
+        <ul class="space-y-1.5 text-slate-300 text-sm list-disc list-inside">
+          <li>Use power of LLM in BigQuery</li>
+          <li>Unlocking the Power of Data: The Livesport Guide to Becoming Data-Informed</li>
+          <li>Being Data Informed, not Data-Driven</li>
+        </ul>
+      </div>
+
+      <a 
+        href="https://antoninkucera.substack.com/" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="px-6 py-3 rounded-xl bg-orange-500 hover:bg-orange-400 text-white font-bold text-sm transition-all shadow-lg shadow-orange-500/20"
+      >
+        Read Substack Articles &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-10 border-t border-slate-800/60">
+    <ContactForm content={c.contact} />
+  </section>
+</Layout>
