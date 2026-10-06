@@ -37,6 +37,7 @@ export interface Content {
     badge: string;
     title: string;
     subtitle: string;
+    readMoreBio: string;
     p1: string;
     p2: string;
     p3: string;
@@ -108,6 +109,7 @@ export const contentEN: Content = {
     badge: "13+ years of experience",
     title: "My Data Analytics Journey",
     subtitle: "From web analytics and ETL pipelines to leading enterprise BI teams for 100M+ global users.",
+    readMoreBio: "More about me",
     p1: "My mission is simple: I don't just 'manage data' — I build data-informed cultures. I believe having data isn't enough; the real challenge and my passion lies in Data Strategy, Governance, AI, and Data Literacy.",
     p2: "My path wasn't linear. I started deep in digital marketing and SEO, moving into web analytics and ETL development building pipelines in SQL and R (R Shiny), while conducting user research and A/B testing.",
     p3: "Before leading the analytics department, I spearheaded migrating our core data pipelines to Google Cloud Platform, which I fell in love with.",
@@ -278,6 +280,7 @@ export const contentCS: Content = {
     badge: "13+ let zkušeností",
     title: "Moje cesta k datové strategii",
     subtitle: "Od SEO a vývoje ETL v R po vedení analytických týmů pro 100M+ uživatelů.",
+    readMoreBio: "Více o mně",
     p1: "Moje vize je jednoduchá: Nespravuji pouze data, ale stavím data-informed kulturu. Klíčem je posun od slepé důvěry v čísla k chytré datové strategii, governance a vzdělávání týmů.",
     p2: "Začínal jsem v digitálním marketingu a SEO. V Livesportu jsem začínal jako webový analytik a vývojář ETL pipeline v SQL a R (R Shiny), včetně realizace prvních A/B testů.",
     p3: "Před převzetím vedení týmu jsem inicioval migraci našich klíčových datových pipeline do Google Cloud Platform, do které jsem se doslova zamiloval.",
