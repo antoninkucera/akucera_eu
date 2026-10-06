@@ -1,12 +1,12 @@
-# Antonín Kučera — Comprehensive Profile & Career Summary
+# Antonin Kucera — Comprehensive Profile & Career Summary
 
 ## Role & Mission
-Antonín Kučera is the Head of Business Intelligence, Data Science & Ad Operations at Livesport, a global sports media company.
+Antonin Kucera is the Head of Business Intelligence, Data Science & Ad Operations at Livesport, a global sports media company.
 His central philosophy is building **data-informed, not blindly data-driven** organizations. He focuses on Data Strategy, Data Governance, Data Literacy, and integrating Generative AI into modern Business Intelligence workflows.
 
 ## Background & Education
 - **Experience:** 13+ years in digital consulting, SEO, web analytics, ETL engineering (R/MySQL/GCP), and BI team leadership.
-- **Education:** Master's degree (Ing.) in Information Management from the Prague University of Economics and Business (VŠE Praha).
+- **Education:** Master's degree (Ing.) in Information Management from the Prague University of Economics and Business (VSE Praha).
 - **Key Leadership:** Expanded Livesport's data team into 3 dedicated analytical streams serving hundreds of millions of users globally.
 
 ## Public Speaking, Podcasts & Events

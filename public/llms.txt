@@ -1,9 +1,9 @@
-# Antonín Kučera
+# Antonin Kucera
 
 > Data Strategist & Head of Business Intelligence at Livesport
 
 ## Summary
-Antonín Kučera is a data leader with over 13 years of experience in digital consulting, data engineering, and business intelligence. As Head of BI at Livesport, he oversees data strategy, analytics teams, and cloud architecture serving hundreds of millions of users worldwide. He advocates for a "data-informed, not blindly data-driven" culture and explores Google Cloud Platform (BigQuery, Dataproc, Airflow) and AI/LLM integrations.
+Antonin Kucera is a data leader with over 13 years of experience in digital consulting, data engineering, and business intelligence. As Head of BI at Livesport, he oversees data strategy, analytics teams, and cloud architecture serving hundreds of millions of users worldwide. He advocates for a "data-informed, not blindly data-driven" culture and explores Google Cloud Platform (BigQuery, Dataproc, Airflow) and AI/LLM integrations.
 
 ## Core Links
 - Website: https://akucera.eu
