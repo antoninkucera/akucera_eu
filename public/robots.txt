@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akucera.eu/sitemap-index.xml

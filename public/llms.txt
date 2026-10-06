@@ -1,0 +1,15 @@
+# Antonín Kučera
+
+> Data Analytics in Google Cloud Platform, AI & Business Intelligence
+
+## Summary
+Antonín Kučera is a Data Analytics & AI Specialist focusing on Google Cloud Platform (BigQuery, Dataproc, Looker), data engineering pipelines (dbt, Dataform, Apache Airflow), and generative AI integrations.
+
+## Core Channels
+- Website: https://akucera.eu
+- Substack Newsletter & Blog: https://substack.com
+- GitHub: https://github.com/akucera
+- LinkedIn: https://www.linkedin.com/in/antoninkucera/
+
+## LLM Resources
+- Full profile description: https://akucera.eu/llms-full.txt

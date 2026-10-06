@@ -1,0 +1,16 @@
+# Antonín Kučera — Full Profile & Capabilities
+
+## Overview
+Antonín Kučera is a Data Analytics, Google Cloud Platform (GCP), and AI Specialist based in the Czech Republic.
+
+## Expertise & Technical Focus
+- **Google Cloud Platform (GCP):** BigQuery, Cloud Composer (Apache Airflow), Dataproc (Spark), Looker, Vertex AI.
+- **Data Engineering & Analytics:** dbt (data build tool), Dataform, SQL optimization, data warehouse modeling, ETL/ELT pipelines.
+- **Artificial Intelligence & LLMs:** Agentic workflows, Model Context Protocol (MCP), generative UI, automated data pipelines powered by LLMs.
+- **Business Intelligence:** Designing intuitive dashboards, metrics, and enterprise reporting.
+
+## Projects & Links
+- **Personal Web & Hub:** https://akucera.eu
+- **Substack (Blog & Newsletter):** Articles on GCP data analytics, AI tools, and engineering workflows.
+- **GitHub:** https://github.com/akucera — Open-source code repositories, data pipeline examples, and tech experiments.
+- **LinkedIn:** https://www.linkedin.com/in/antoninkucera/ — Professional network & contact.

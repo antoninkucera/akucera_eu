@@ -1,0 +1,237 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <!-- Hero Section -->
+  <section class="py-6 md:py-12 flex flex-col items-start gap-6">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-mono">
+      <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+      Data Analytics · Google Cloud · AI & BI
+    </div>
+
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight font-serif">
+      Stavím datová řešení, <br class="hidden sm:inline" />
+      <span class="bg-gradient-to-r from-indigo-400 via-blue-400 to-cyan-400 bg-clip-text text-transparent">
+        objevuji sílu AI
+      </span> 
+      a píšu o tom.
+    </h1>
+
+    <p class="text-lg md:text-xl text-slate-300 max-w-2xl font-normal leading-relaxed">
+      Jsem **Antonín Kučera**. Věnuji se datové architektuře v Google Cloud Platform, pokročilé analytice, Business Intelligence a generativní AI. 
+    </p>
+
+    <div class="flex flex-wrap items-center gap-4 pt-2">
+      <a 
+        href="#substack" 
+        class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-lg shadow-indigo-600/25 transition-all hover:scale-[1.02]"
+      >
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+          <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+        </svg>
+        Číst můj Substack
+      </a>
+
+      <a 
+        href="https://github.com/akucera" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-medium transition-colors"
+      >
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        GitHub Profil
+      </a>
+    </div>
+  </section>
+
+  <!-- Substack & Newsletter Showcase -->
+  <section id="substack" class="py-12">
+    <div class="relative overflow-hidden rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 p-8 md:p-10">
+      <div class="absolute -top-24 -right-24 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl"></div>
+      
+      <div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+        <div class="space-y-4 max-w-xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 text-orange-400 text-xs font-mono">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+              <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+            </svg>
+            Substack Blog & Newsletter
+          </div>
+          
+          <h2 class="text-2xl md:text-3xl font-bold text-white font-serif">
+            Můj zápisník o datech, cloudu a AI
+          </h2>
+          
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Pravidelně sdílím praktické poznatky z oblasti moderní datové analytiky v Google Cloud Platform, architektury BigQuery, dbt/Dataformu a využití LLM agentů v reálné praxi.
+          </p>
+        </div>
+
+        <div class="w-full md:w-auto flex flex-col gap-3">
+          <a 
+            href="https://substack.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="px-6 py-3.5 bg-orange-500 hover:bg-orange-400 text-white font-semibold text-center rounded-xl shadow-lg shadow-orange-500/20 transition-all hover:scale-[1.02]"
+          >
+            Odebírat na Substacku
+          </a>
+          <span class="text-center text-xs text-slate-500 font-mono">Přímo do vaší e-mailové schránky</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Bento Grid (Hub & Rozcestník) -->
+  <section id="projects" class="py-12">
+    <div class="space-y-2 mb-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-white font-serif">Rozcestník & Projekty</h2>
+      <p class="text-slate-400 text-sm">Vybrané projekty, domény a oblasti mého působení.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Card 1: Data & Cloud Architecture -->
+      <div class="md:col-span-2 rounded-2xl bg-slate-900/60 border border-slate-800/80 p-6 hover:border-slate-700 transition-colors group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-4 group-hover:scale-110 transition-transform">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">
+            GCP & Data Analytics
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Návrh a realizace moderních datových skladů na Google Cloud Platform (BigQuery), ETL/ELT datových pipeline (dbt, Dataform, Airflow) a tvorba Business Intelligence dashboardů.
+          </p>
+        </div>
+        <div class="flex items-center gap-2 text-xs font-mono text-slate-500">
+          <span>BigQuery</span> • <span>dbt</span> • <span>Dataproc</span> • <span>Looker</span>
+        </div>
+      </div>
+
+      <!-- Card 2: GitHub & Open Source -->
+      <a href="https://github.com/akucera" target="_blank" rel="noopener noreferrer" class="rounded-2xl bg-slate-900/60 border border-slate-800/80 p-6 hover:border-slate-700 transition-colors group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors flex items-center gap-1.5">
+            GitHub
+            <svg class="w-4 h-4 text-slate-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Zdrojové kódy, ukázky skriptů, data engineering nástroje a mé výzkumné repo.
+          </p>
+        </div>
+        <span class="text-xs font-mono text-blue-400 group-hover:underline">@akucera na GitHubu &rarr;</span>
+      </a>
+
+      <!-- Card 3: AI & Generative Agents -->
+      <div class="rounded-2xl bg-slate-900/60 border border-slate-800/80 p-6 hover:border-slate-700 transition-colors group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-4 group-hover:scale-110 transition-transform">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">
+            AI & LLM Agenti
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Testování a nasazování autonomních AI agentů, LLM integrací a generativního vývoje v praxi.
+          </p>
+        </div>
+        <div class="flex items-center gap-2 text-xs font-mono text-slate-500">
+          <span>Agentic Workflows</span> • <span>MCP</span>
+        </div>
+      </div>
+
+      <!-- Card 4: Moje Domény & Projekty -->
+      <div class="md:col-span-2 rounded-2xl bg-slate-900/60 border border-slate-800/80 p-6 hover:border-slate-700 transition-colors group flex flex-col justify-between">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition-transform">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">
+            Osobní Hub (akucera.eu)
+          </h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-4">
+            Tento web funguje jako lehký a nezávislý rozcestník bez zbytečného CMS. Všechny projekty, publikace i profesní profil na jednom místě.
+          </p>
+        </div>
+        <div class="flex items-center gap-4 text-xs font-mono text-emerald-400">
+          <span>akucera.eu</span> • <span>Substack</span> • <span>GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 border-t border-slate-800/60">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold text-white font-serif mb-3">O mně</h2>
+        <p class="text-slate-400 text-sm leading-relaxed">
+          Několik vět o mém profilu, zaměření a přístupu k technologiím.
+        </p>
+      </div>
+
+      <div class="md:col-span-2 space-y-4 text-slate-300 leading-relaxed text-base">
+        <p>
+          Specializuji se na datovou analytiku a cloudové technologie. Pomáhám firmám i projektům smysluplně využívat data z uložišť přes transformaci až po vizualizace a automatizaci.
+        </p>
+        <p>
+          Mou doménou je **Google Cloud Platform** (BigQuery, Cloud Composer / Airflow, Dataproc, Looker) společně s moderními trendy jako **dbt / Dataform** a propojování datového inženýrství s **generativní AI**.
+        </p>
+        <p>
+          Místo těžkopádných systémů preferuji čistotu, rychlost a jednoduchost — jak v kódu, tak v architektuře.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Links Section -->
+  <section id="contact" class="py-12 border-t border-slate-800/60">
+    <div class="rounded-2xl bg-gradient-to-tr from-slate-900 to-indigo-950/40 border border-slate-800 p-8 text-center space-y-6">
+      <h2 class="text-2xl md:text-3xl font-bold text-white font-serif">Spojme se</h2>
+      <p class="text-slate-400 text-sm max-w-md mx-auto">
+        Máte zájem o konzultaci v oblasti GCP datové architektury, AI automatizace nebo si chcete jen popovídat?
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+        <a 
+          href="https://www.linkedin.com/in/antoninkucera/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium transition-colors inline-flex items-center gap-2"
+        >
+          LinkedIn
+        </a>
+        <a 
+          href="https://github.com/akucera" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium transition-colors inline-flex items-center gap-2"
+        >
+          GitHub
+        </a>
+        <a 
+          href="https://substack.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium transition-colors inline-flex items-center gap-2"
+        >
+          Substack
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
