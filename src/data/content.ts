@@ -107,13 +107,13 @@ export const contentEN: Content = {
   },
   bio: {
     badge: "13+ years of experience",
-    title: "My Data Analytics Journey",
-    subtitle: "From web analytics and ETL pipelines to leading enterprise BI teams for 100M+ global users.",
+    title: "Data Strategist & Head of BI, Data Science & Ad Operations",
+    subtitle: "Building data-informed cultures that drive revenue and user satisfaction.",
     readMoreBio: "More about me",
-    p1: "My mission is simple: I don't just 'manage data' — I build data-informed cultures. I believe having data isn't enough; the real challenge and my passion lies in Data Strategy, Governance, AI, and Data Literacy.",
-    p2: "My path wasn't linear. I started deep in digital marketing and SEO, moving into web analytics and ETL development building pipelines in SQL and R (R Shiny), while conducting user research and A/B testing.",
-    p3: "Before leading the analytics department, I spearheaded migrating our core data pipelines to Google Cloud Platform, which I fell in love with.",
-    p4: "In 2020, we built a dedicated Business Intelligence unit at Livesport covering 3 internal analytical streams. Today, I lead BI, Data Science & Ad Operations, focusing on GCP (BigQuery, Cloud Composer) and practical AI integration.",
+    p1: "Hello! I am Antonín Kučera, a data leader with over 13 years of experience in digital consulting and business intelligence.",
+    p2: "Currently, I work as the Head of Business Intelligence at Livesport, a global sports media company, where I lead teams of analysts, engineers, and scientists.",
+    p3: "My mission is simple: I don't just 'manage data' — I build data-informed cultures.",
+    p4: "I believe that having data isn't enough. The real challenge and my passion lies in Data Strategy, Governance, AI and Literacy. I focus on moving from being blindly 'data-driven' to being intelligently 'data-informed,' ensuring that insights actually drive revenue and user satisfaction.",
     vseTag: "Master's Degree in Information Management from Prague University of Economics and Business (VŠE)"
   },
   substack: {
@@ -278,13 +278,13 @@ export const contentCS: Content = {
   },
   bio: {
     badge: "13+ let zkušeností",
-    title: "Moje cesta k datové strategii",
-    subtitle: "Od SEO a vývoje ETL v R po vedení analytických týmů pro 100M+ uživatelů.",
+    title: "Data Strategist & Head of BI, Data Science & Ad Operations",
+    subtitle: "Stavění data-informed kultury, která přináší reálnou hodnotu.",
     readMoreBio: "Více o mně",
-    p1: "Moje vize je jednoduchá: Nespravuji pouze data, ale stavím data-informed kulturu. Klíčem je posun od slepé důvěry v čísla k chytré datové strategii, governance a vzdělávání týmů.",
-    p2: "Začínal jsem v digitálním marketingu a SEO. V Livesportu jsem začínal jako webový analytik a vývojář ETL pipeline v SQL a R (R Shiny), včetně realizace prvních A/B testů.",
-    p3: "Před převzetím vedení týmu jsem inicioval migraci našich klíčových datových pipeline do Google Cloud Platform, do které jsem se doslova zamiloval.",
-    p4: "V roce 2020 jsme v Livesportu vytvořili dedikovaný BI tým se 3 analytickými větvemi. Dnes se věnuji budování týmů, GCP architektuře (BigQuery, Cloud Composer) a využití generativní AI v BI.",
+    p1: "Jsem Antonín Kučera, datový lídr s více než 13 lety zkušeností v digitálním poradenství a Business Intelligence.",
+    p2: "V současnosti působím jako Head of Business Intelligence v Livesportu, globální sportovně-technologické společnosti, kde vedu týmy analytiků, datových inženýrů a vědců.",
+    p3: "Má mise je jednoduchá: Nesprávám pouze data — stavím data-informed kulturu.",
+    p4: "Věřím, že mít data nestačí. Skutečná výzva a moje vášeň spočívá v datové strategii, governance, AI a datové gramotnosti. Zaměřuji se na posun od slepé důvěry v čísla k inteligentnímu „data-informed“ rozhodování, které přináší reálnou hodnotu a spokojenost uživatelů.",
     vseTag: "Inženýrský titul (Ing.) v oboru Informační management z VŠE v Praze"
   },
   substack: {
