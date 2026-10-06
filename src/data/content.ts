@@ -10,6 +10,16 @@ export interface SpeakingItem {
   type?: 'conference' | 'podcast' | 'meetup';
 }
 
+export interface TopicCard {
+  id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  icon: 'strategy' | 'sports' | 'ai' | 'betting' | 'education' | 'data' | 'github' | 'tech';
+  link?: string;
+  linkText?: string;
+}
+
 export interface Content {
   meta: {
     title: string;
@@ -17,7 +27,7 @@ export interface Content {
   };
   nav: {
     about: string;
-    bioPage: string;
+    topics: string;
     speaking: string;
     substack: string;
     contact: string;
@@ -51,17 +61,10 @@ export interface Content {
     btnSubscribe: string;
     hint: string;
   };
-  projects: {
+  topicsSection: {
     title: string;
     subtitle: string;
-    card1Title: string;
-    card1Desc: string;
-    card2Title: string;
-    card2Desc: string;
-    card3Title: string;
-    card3Desc: string;
-    card4Title: string;
-    card4Desc: string;
+    items: TopicCard[];
   };
   speaking: {
     title: string;
@@ -85,11 +88,11 @@ export interface Content {
 export const contentEN: Content = {
   meta: {
     title: "Antonín Kučera — Data Strategist & Head of BI",
-    description: "Data Strategist & Head of BI, Data Science & Ad Operations at Livesport. Advocate for data-informed cultures, GCP cloud analytics, and AI."
+    description: "Data Strategist & Head of BI, Data Science & Ad Operations at Livesport. Focus on Sports Data, AI in Analytics, Data Strategy, and iGaming."
   },
   nav: {
     about: "About",
-    bioPage: "Full Bio",
+    topics: "Focus Areas",
     speaking: "Public Speaking",
     substack: "Substack",
     contact: "Contact",
@@ -123,17 +126,69 @@ export const contentEN: Content = {
     btnSubscribe: "Subscribe on Substack",
     hint: "Join readers at antoninkucera.substack.com"
   },
-  projects: {
-    title: "Focus Areas & Hub",
-    subtitle: "Key projects, cloud data engineering, and open-source activities.",
-    card1Title: "Livesport & Data Strategy",
-    card1Desc: "Overseeing data strategy, BI, Data Science, and Ad Operations for a global sports media company serving 100M+ monthly users.",
-    card2Title: "GitHub Repositories",
-    card2Desc: "Data pipeline code, SQL/Python transformations, dbt models, and analytical tools.",
-    card3Title: "Generative AI in BI",
-    card3Desc: "Leveraging LLM agents in BigQuery, automated data cleaning with SQL and ML, and custom AI tooling for analysts.",
-    card4Title: "Personal Hub (akucera.eu)",
-    card4Desc: "A lightweight, static site built for speed, performance, and clear knowledge sharing without heavy CMS bloat."
+  topicsSection: {
+    title: "Focus Areas & Expertise",
+    subtitle: "Key domains, analytical topics, and open-source activities.",
+    items: [
+      {
+        id: "bi-ai",
+        title: "BI & AI in Data Analytics",
+        description: "Combining modern Business Intelligence with Generative AI and LLM agents in BigQuery to automate data cleaning and extract actionable insights.",
+        tags: ["BigQuery", "LLM Agents", "dbt", "Looker"],
+        icon: "ai"
+      },
+      {
+        id: "sports-data",
+        title: "Sports & Football Data",
+        description: "Processing and analyzing real-time sports telemetry, match statistics, and fan engagement metrics for over 100 million global users.",
+        tags: ["Sports Analytics", "Real-Time Data", "Livesport"],
+        icon: "sports"
+      },
+      {
+        id: "strategy",
+        title: "Data Strategies & Governance",
+        description: "Designing enterprise data roadmaps, data literacy programs, and governance frameworks that turn raw metrics into sustainable revenue.",
+        tags: ["Data Governance", "Data Culture", "Cloud Architecture"],
+        icon: "strategy"
+      },
+      {
+        id: "betting",
+        title: "Betting & iGaming",
+        description: "Analyzing market odds dynamics, user betting behavior, attribution models, and data-driven ad operations in the iGaming ecosystem.",
+        tags: ["iGaming Analytics", "Ad Operations", "Market Intelligence"],
+        icon: "betting"
+      },
+      {
+        id: "open-data",
+        title: "World Statistics & Open Data",
+        description: "Exploring global macroeconomic datasets, public open data APIs, and metric-backed insights across healthcare, finance, and demographics.",
+        tags: ["Open Data", "Global Stats", "Data Analysis"],
+        icon: "data"
+      },
+      {
+        id: "education",
+        title: "Education & Data Literacy",
+        description: "Fostering data literacy across organizations, mentoring analytics teams, public speaking at conferences, and hosting data podcasts.",
+        tags: ["Mentorship", "Podcasts", "Public Speaking"],
+        icon: "education"
+      },
+      {
+        id: "projects",
+        title: "Projects & Open Source",
+        description: "Open-source SQL/Python transformation tools, data pipeline scripts, dbt models, and analytical experiments hosted on GitHub.",
+        tags: ["GitHub", "Python", "SQL", "Open Source"],
+        icon: "github",
+        link: "https://github.com/antoninkucera",
+        linkText: "github.com/antoninkucera →"
+      },
+      {
+        id: "investments",
+        title: "Tech Investments & Trends",
+        description: "Evaluating emerging cloud technology stacks, cost-optimization strategies, AI infrastructure, and long-term tech investments.",
+        tags: ["Tech Trends", "Cloud Costs", "Fintech"],
+        icon: "tech"
+      }
+    ]
   },
   speaking: {
     title: "🎙️ Public Speaking & Knowledge Sharing",
@@ -256,11 +311,11 @@ export const contentEN: Content = {
 export const contentCS: Content = {
   meta: {
     title: "Antonín Kučera — Data Strategist & Head of BI",
-    description: "Antonín Kučera je Head of BI v Livesportu a Data Strategist. Specialista na GCP, BigQuery, AI a stavění datově informovaných týmů."
+    description: "Antonín Kučera je Head of BI v Livesportu a Data Strategist. Zaměření na sportovní data, AI v analytice, datové strategie a iGaming."
   },
   nav: {
     about: "O mně",
-    bioPage: "Celý profil",
+    topics: "Témata & Oblasti",
     speaking: "Přednášky",
     substack: "Substack",
     contact: "Kontakt",
@@ -294,17 +349,69 @@ export const contentCS: Content = {
     btnSubscribe: "Odebírat na Substacku",
     hint: "Pravidelné články na antoninkucera.substack.com"
   },
-  projects: {
-    title: "Oblast působení & Rozcestník",
-    subtitle: "Přehled klíčových projektů a veřejných repozitářů.",
-    card1Title: "Livesport & Datová Strategie",
-    card1Desc: "Řízení BI, Data Science a Ad Operations v globálním sportovně-technologickém lídrovi pro 100 miliónů měsíčních uživatelů.",
-    card2Title: "GitHub Repozitáře",
-    card2Desc: "Kód datových pipeline, SQL/Python transformace, dbt modely a analytické nástroje.",
-    card3Title: "Generativní AI v BI",
-    card3Desc: "Využití LLM agentů v BigQuery, automatizované čištění dat pomocí SQL/ML a interní AI asistenti.",
-    card4Title: "Osobní Hub (akucera.eu)",
-    card4Desc: "Lehký statický web bez těžkopádného CMS pro prezentaci myšlenek, přednášek a rozcestník projektů."
+  topicsSection: {
+    title: "Témata & Hlavní Oblasti",
+    subtitle: "Klíčové domény, analytická témata a veřejné aktivity.",
+    items: [
+      {
+        id: "bi-ai",
+        title: "BI & AI v Datové Analytice",
+        description: "Propojování moderního Business Intelligence s generativní AI a LLM agenty v BigQuery pro automatizovanou očistu dat a rychlé vyvozování závěrů.",
+        tags: ["BigQuery", "LLM Agenti", "dbt", "Looker"],
+        icon: "ai"
+      },
+      {
+        id: "sports-data",
+        title: "Sportovní Data & Fotbalová Analytika",
+        description: "Zpracování a analytika reálných sportovních dat, zápasových statistik a chování fanoušků pro více než 100 milionů globálních uživatelů.",
+        tags: ["Sportovní Analytika", "Real-Time Data", "Livesport"],
+        icon: "sports"
+      },
+      {
+        id: "strategy",
+        title: "Datové Strategie & Governance",
+        description: "Návrh firemních datových strategií, datové governance a programů datové gramotnosti pro přeměnu čísel v udržitelné příjmy.",
+        tags: ["Data Governance", "Datová Kultura", "GCP Architektura"],
+        icon: "strategy"
+      },
+      {
+        id: "betting",
+        title: "Sázení & iGaming Analytika",
+        description: "Analýza kurzových trhů, sázkového chování uživatelů, atribučních modelů a datového řízení reklamy (Ad Operations) v iGaming prostředí.",
+        tags: ["iGaming Analytika", "Ad Operations", "Market Intelligence"],
+        icon: "betting"
+      },
+      {
+        id: "open-data",
+        title: "Světová Statistika & Open Data",
+        description: "Zkoumání globálních makroekonomických dat, veřejných rozhraní Open Data a transparentní analytika sociálních a finančních trendů.",
+        tags: ["Open Data", "Globální Statistiky", "Datová Analýza"],
+        icon: "data"
+      },
+      {
+        id: "education",
+        title: "Vzdělávání & Datová Gramotnost",
+        description: "Rozvíjení datové gramotnosti napříč firmou, mentoring analytických týmů, vystupování na konferencích a natáčení podcastů.",
+        tags: ["Mentoring", "Podcasty", "Přednášky"],
+        icon: "education"
+      },
+      {
+        id: "projects",
+        title: "Projekty & Open Source",
+        description: "Veřejné SQL/Python skripty, transformace, dbt modely a výzkumné datové repozitáře dostupné na GitHubu.",
+        tags: ["GitHub", "Python", "SQL", "Open Source"],
+        icon: "github",
+        link: "https://github.com/antoninkucera",
+        linkText: "github.com/antoninkucera →"
+      },
+      {
+        id: "investments",
+        title: "Investice & Technologie",
+        description: "Hodnocení moderních cloudových technologií, optimalizace cloudových nákladů (FinOps), AI infrastruktura a investiční trendy.",
+        tags: ["Technologické Trendy", "FinOps", "Investice"],
+        icon: "tech"
+      }
+    ]
   },
   speaking: {
     title: "🎙️ Přednášky, Podcasty & Eventy",
