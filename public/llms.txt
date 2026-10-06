@@ -1,14 +1,14 @@
 # Antonín Kučera
 
-> Data Analytics in Google Cloud Platform, AI & Business Intelligence
+> Data Strategist & Head of Business Intelligence at Livesport
 
 ## Summary
-Antonín Kučera is a Data Analytics & AI Specialist focusing on Google Cloud Platform (BigQuery, Dataproc, Looker), data engineering pipelines (dbt, Dataform, Apache Airflow), and generative AI integrations.
+Antonín Kučera is a data leader with over 13 years of experience in digital consulting, data engineering, and business intelligence. As Head of BI at Livesport, he oversees data strategy, analytics teams, and cloud architecture serving hundreds of millions of users worldwide. He advocates for a "data-informed, not blindly data-driven" culture and explores Google Cloud Platform (BigQuery, Dataproc, Airflow) and AI/LLM integrations.
 
-## Core Channels
+## Core Links
 - Website: https://akucera.eu
-- Substack Newsletter & Blog: https://substack.com
-- GitHub: https://github.com/akucera
+- Substack Newsletter & Blog: https://antoninkucera.substack.com/
+- GitHub: https://github.com/antoninkucera
 - LinkedIn: https://www.linkedin.com/in/antoninkucera/
 
 ## LLM Resources

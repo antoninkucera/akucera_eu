@@ -1,16 +1,25 @@
-# Antonín Kučera — Full Profile & Capabilities
+# Antonín Kučera — Comprehensive Profile & Career Summary
 
-## Overview
-Antonín Kučera is a Data Analytics, Google Cloud Platform (GCP), and AI Specialist based in the Czech Republic.
+## Role & Mission
+Antonín Kučera is the Head of Business Intelligence, Data Science & Ad Operations at Livesport, a global sports media company.
+His central philosophy is building **data-informed, not blindly data-driven** organizations. He focuses on Data Strategy, Data Governance, Data Literacy, and integrating Generative AI into modern Business Intelligence workflows.
 
-## Expertise & Technical Focus
-- **Google Cloud Platform (GCP):** BigQuery, Cloud Composer (Apache Airflow), Dataproc (Spark), Looker, Vertex AI.
-- **Data Engineering & Analytics:** dbt (data build tool), Dataform, SQL optimization, data warehouse modeling, ETL/ELT pipelines.
-- **Artificial Intelligence & LLMs:** Agentic workflows, Model Context Protocol (MCP), generative UI, automated data pipelines powered by LLMs.
-- **Business Intelligence:** Designing intuitive dashboards, metrics, and enterprise reporting.
+## Background & Education
+- **Experience:** 13+ years in digital consulting, SEO, web analytics, ETL engineering (R/MySQL/GCP), and BI team leadership.
+- **Education:** Master's degree (Ing.) in Information Management from the Prague University of Economics and Business (VŠE Praha).
+- **Key Leadership:** Expanded Livesport's data team into 3 dedicated analytical streams serving hundreds of millions of users globally.
 
-## Projects & Links
-- **Personal Web & Hub:** https://akucera.eu
-- **Substack (Blog & Newsletter):** Articles on GCP data analytics, AI tools, and engineering workflows.
-- **GitHub:** https://github.com/akucera — Open-source code repositories, data pipeline examples, and tech experiments.
-- **LinkedIn:** https://www.linkedin.com/in/antoninkucera/ — Professional network & contact.
+## Public Speaking, Podcasts & Events
+- **DataDay 2025:** "BI leader: agent with a license to change"
+- **IT Talks Podcast (2025):** Data strategy and BI leadership in global tech
+- **DataDay 2024:** "Data Cleaning with SQL and ML"
+- **MeasureCamp Czechia (2020-2024):** Analytics infrastructure & cookie bar optimization
+- **dCast & DataTalk Podcast (#23):** "BI as the brain of the company"
+- **WebExpo 2022:** "Being data-informed, not data-driven"
+
+## Public Links
+- Website: https://akucera.eu
+- Substack Blog: https://antoninkucera.substack.com/
+- GitHub: https://github.com/antoninkucera
+- LinkedIn: https://www.linkedin.com/in/antoninkucera/
+- Direct Email: antonio.kucera@gmail.com

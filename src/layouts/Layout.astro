@@ -1,67 +1,78 @@
 ---
 import '../styles/global.css';
+import type { Content } from '../data/content';
 
 interface Props {
-  title?: string;
-  description?: string;
+  content: Content;
+  lang?: 'cs' | 'en';
 }
 
-const {
-  title = "Antonín Kučera — Data Analytics, GCP, AI & BI",
-  description = "Osobní profil, rozcestník projektů, newsletter a CV. Specialist na Google Cloud Platform, data analytics, AI a Business Intelligence."
-} = Astro.props;
+const { content, lang = 'cs' } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://akucera.eu");
 ---
 
 <!doctype html>
-<html lang="cs" class="dark scroll-smooth">
+<html lang={lang} class="dark scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    <title>{content.meta.title}</title>
+    <meta name="description" content={content.meta.description} />
     <meta name="author" content="Antonín Kučera" />
     <link rel="canonical" href={canonicalURL} />
 
+    <!-- hreflang tags for i18n -->
+    <link rel="alternate" hreflang="cs" href="https://akucera.eu/" />
+    <link rel="alternate" hreflang="en" href="https://akucera.eu/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://akucera.eu/" />
+
     <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={content.meta.title} />
+    <meta property="og:description" content={content.meta.description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : 'en_US'} />
     <meta property="og:site_name" content="akucera.eu" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:title" content={content.meta.title} />
+    <meta name="twitter:description" content={content.meta.description} />
 
     <!-- AI Agent discovery (RFC 8288 / llms.txt) -->
     <link rel="service-doc" type="text/plain" href="/llms.txt" title="LLM-friendly site overview" />
     <link rel="describedby" type="text/plain" href="/llms-full.txt" title="Full LLM-readable description" />
 
     <!-- Structured Data (Schema.org Person) -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Antonín Kučera",
-        "url": "https://akucera.eu",
-        "jobTitle": "Data Analytics & AI Specialist",
-        "knowsAbout": [
-          "Google Cloud Platform",
-          "BigQuery",
-          "Data Analytics",
-          "Artificial Intelligence",
-          "Business Intelligence"
-        ],
-        "sameAs": [
-          "https://github.com/akucera",
-          "https://www.linkedin.com/in/antoninkucera/"
-        ]
-      }
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Antonín Kučera",
+      "url": "https://akucera.eu",
+      "jobTitle": "Data Strategist & Head of Business Intelligence",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Livesport"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Prague University of Economics and Business"
+      },
+      "knowsAbout": [
+        "Data Strategy",
+        "Business Intelligence",
+        "Google Cloud Platform",
+        "BigQuery",
+        "Data Governance",
+        "Artificial Intelligence"
+      ],
+      "sameAs": [
+        "https://github.com/antoninkucera",
+        "https://www.linkedin.com/in/antoninkucera/",
+        "https://antoninkucera.substack.com/"
+      ]
+    })} />
   </head>
   <body class="min-h-screen flex flex-col bg-slate-950 text-slate-100 selection:bg-indigo-500 selection:text-white">
     <!-- Background glow effect -->
@@ -74,24 +85,39 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://akucera.
     <!-- Container wrapper -->
     <div class="relative z-10 max-w-4xl mx-auto px-6 py-8 flex-1 flex flex-col w-full">
       <!-- Navigation Header -->
-      <header class="flex items-center justify-between py-6 border-b border-slate-800/60 mb-12">
-        <a href="/" class="group flex items-center gap-3">
+      <header class="flex flex-col sm:flex-row items-center justify-between py-6 border-b border-slate-800/60 mb-12 gap-4">
+        <a href={lang === 'cs' ? '/' : '/en/'} class="group flex items-center gap-3">
           <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-500 to-blue-400 p-0.5 shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform duration-300">
             <div class="w-full h-full bg-slate-950 rounded-full flex items-center justify-center font-mono font-bold text-indigo-400 text-sm">
               AK
             </div>
           </div>
-          <span class="font-bold text-lg tracking-tight text-white group-hover:text-indigo-400 transition-colors">
-            Antonín Kučera
-          </span>
+          <div>
+            <span class="font-bold text-lg tracking-tight text-white group-hover:text-indigo-400 transition-colors block leading-none mb-1">
+              Antonín Kučera
+            </span>
+            <span class="text-xs text-slate-400 font-mono block">Data Strategist & Head of BI</span>
+          </div>
         </a>
 
-        <nav class="flex items-center gap-6 text-sm font-medium text-slate-400">
-          <a href="#about" class="hover:text-slate-100 transition-colors">O mně</a>
-          <a href="#projects" class="hover:text-slate-100 transition-colors">Projekty</a>
-          <a href="#substack" class="hover:text-indigo-400 transition-colors">Substack</a>
-          <a href="#contact" class="hover:text-slate-100 transition-colors">Kontakt</a>
-        </nav>
+        <div class="flex items-center gap-6">
+          <nav class="flex items-center gap-4 text-xs sm:text-sm font-medium text-slate-400">
+            <a href="#about" class="hover:text-slate-100 transition-colors">{content.nav.about}</a>
+            <a href="#speaking" class="hover:text-slate-100 transition-colors">{content.nav.speaking}</a>
+            <a href="#projects" class="hover:text-slate-100 transition-colors">{content.nav.experience}</a>
+            <a href="#substack" class="hover:text-indigo-400 transition-colors">{content.nav.substack}</a>
+            <a href="#contact" class="hover:text-slate-100 transition-colors">{content.nav.contact}</a>
+          </nav>
+
+          <!-- i18n Language Switcher -->
+          <a 
+            href={content.nav.langSwitchUrl} 
+            title={content.nav.langSwitchLabel}
+            class="px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 hover:border-indigo-500/50 text-indigo-400 font-mono text-xs font-semibold transition-all hover:scale-105"
+          >
+            {content.nav.langSwitch}
+          </a>
+        </div>
       </header>
 
       <!-- Main Content -->
@@ -102,7 +128,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://akucera.
       <!-- Footer -->
       <footer class="mt-20 pt-8 border-t border-slate-800/60 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <div>
-          &copy; {new Date().getFullYear()} Antonín Kučera. Všechna práva vyrazena.
+          &copy; {new Date().getFullYear()} Antonín Kučera. Všechna práva vyhrazená.
         </div>
         <div class="flex items-center gap-4 font-mono">
           <a href="/llms.txt" class="hover:text-indigo-400 transition-colors">/llms.txt</a>

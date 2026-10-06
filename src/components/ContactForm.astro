@@ -1,0 +1,129 @@
+---
+import type { Content } from '../data/content';
+
+interface Props {
+  content: Content['contact'];
+}
+
+const { content } = Astro.props;
+---
+
+<div class="rounded-2xl bg-slate-900/80 border border-slate-800 p-8 shadow-xl relative overflow-hidden">
+  <div class="space-y-2 mb-6">
+    <h2 class="text-2xl md:text-3xl font-bold text-white font-serif">{content.title}</h2>
+    <p class="text-slate-400 text-sm">{content.subtitle}</p>
+  </div>
+
+  <form id="contact-form" class="space-y-4">
+    <!-- Honeypot Anti-Spam Field (hidden from real users, bots will auto-fill it) -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;" tabindex="-1" autocomplete="off" />
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <label for="name" class="block text-xs font-mono font-medium text-slate-400 mb-1.5">{content.nameLabel}</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="name" 
+          required 
+          placeholder="Jan Novák"
+          class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 text-sm transition-colors"
+        />
+      </div>
+
+      <div>
+        <label for="email" class="block text-xs font-mono font-medium text-slate-400 mb-1.5">{content.emailLabel}</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          required 
+          placeholder="jan@example.cz"
+          class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 text-sm transition-colors"
+        />
+      </div>
+    </div>
+
+    <div>
+      <label for="message" class="block text-xs font-mono font-medium text-slate-400 mb-1.5">{content.messageLabel}</label>
+      <textarea 
+        id="message" 
+        name="message" 
+        rows="4" 
+        required 
+        placeholder="Napište vaši zprávu..."
+        class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 text-sm transition-colors"
+      ></textarea>
+    </div>
+
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+      <button 
+        type="submit" 
+        id="submit-btn"
+        class="w-full sm:w-auto px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm transition-all shadow-lg shadow-indigo-600/25 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        {content.submitBtn}
+      </button>
+
+      <span class="text-[11px] text-slate-500 font-mono flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        Ochrana proti spamu (Honeypot active)
+      </span>
+    </div>
+
+    <div id="form-status" class="hidden p-4 rounded-xl text-sm font-medium"></div>
+  </form>
+</div>
+
+<script define:vars={{ sendingText: content.sending, successText: content.success, errorText: content.error }}>
+  const form = document.getElementById('contact-form');
+  const submitBtn = document.getElementById('submit-btn');
+  const statusDiv = document.getElementById('form-status');
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+
+    // Check honeypot field - if filled, ignore silently (bot detected!)
+    if (formData.get('botcheck')) {
+      console.warn('Bot submission detected and discarded.');
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = sendingText;
+    statusDiv.classList.add('hidden');
+
+    try {
+      // Using Web3Forms endpoint (free & honeypot protected)
+      formData.append('access_key', 'YOUR_WEB3FORMS_ACCESS_KEY'); // Can be replaced or fallback to mailto
+      
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        statusDiv.className = 'p-4 rounded-xl text-sm font-medium bg-emerald-500/10 border border-emerald-500/20 text-emerald-400';
+        statusDiv.textContent = successText;
+        form.reset();
+      } else {
+        // Fallback to mailto if API key is not configured yet
+        window.location.href = `mailto:antonio.kucera@gmail.com?subject=Zpráva z webu od ${encodeURIComponent(formData.get('name'))}&body=${encodeURIComponent(formData.get('message'))}`;
+        statusDiv.className = 'p-4 rounded-xl text-sm font-medium bg-indigo-500/10 border border-indigo-500/20 text-indigo-400';
+        statusDiv.textContent = successText;
+      }
+    } catch (err) {
+      // Mailto fallback
+      window.location.href = `mailto:antonio.kucera@gmail.com?subject=Zpráva z webu od ${encodeURIComponent(formData.get('name'))}&body=${encodeURIComponent(formData.get('message'))}`;
+      statusDiv.className = 'p-4 rounded-xl text-sm font-medium bg-indigo-500/10 border border-indigo-500/20 text-indigo-400';
+      statusDiv.textContent = successText;
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Odesláno';
+      statusDiv.classList.remove('hidden');
+    }
+  });
+</script>
