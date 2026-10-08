@@ -6,6 +6,7 @@ import ContactForm from '../../components/ContactForm.astro';
 import { contentCS } from '../../data/content';
 
 const c = contentCS;
+const baseUrl = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL.slice(0, -1) : import.meta.env.BASE_URL;
 ---
 
 <Layout content={c} lang="cs">
@@ -66,7 +67,7 @@ const c = contentCS;
           {c.bio.subtitle}
         </p>
         <a 
-          href="/antonin-kucera-data-strategist-head-of-bi/" 
+          href={`${baseUrl}/antonin-kucera-data-strategist-head-of-bi/`} 
           class="inline-flex items-center gap-1.5 text-xs font-mono text-indigo-400 hover:underline mb-4 block font-semibold"
         >
           {c.bio.readMoreBio} &rarr;
