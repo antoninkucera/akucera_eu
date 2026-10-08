@@ -12,197 +12,103 @@
       <dc:creator>admin</dc:creator>
       <guid isPermaLink="false">https://akucera.eu/?p=52</guid>
       <description/>
-      <content:encoded>&lt;!-- wp:separator --&gt;
-&lt;hr class=&quot;wp-block-separator has-alpha-channel-opacity&quot;/&gt;
-&lt;!-- /wp:separator --&gt;
+      <content:encoded>&lt;hr class=&quot;wp-block-separator has-alpha-channel-opacity&quot;/&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;For over a decade, I’ve worked in data. I’ve seen the rise of &quot;Big Data,&quot; the obsession with &quot;Data-Driven&quot; cultures, and the endless quest for the perfect dashboard. But as I stood on stage at &lt;a href=&quot;https://dataday.cz&quot; title=&quot;Data Day 2025&quot;&gt;Data Day 2025&lt;/a&gt;, looking at the theme &quot;Agent with a Licence to Change,&quot; I realized that the ground beneath us has shifted more in the last 18 months than in the previous ten years.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We are operating in a world where technology has finally outpaced our processes. The hype cycle is deafening. Executives expect magical, immediate solutions from AI , while we in the trenches are staring at the reality of infrastructure debt and data governance.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;There is no blueprint for what we are doing. We are building the plane while flying it. And in this chaos, I’ve found that the most dangerous thing a leader can be right now is blindly &quot;data-driven.&quot;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The AI Productivity Paradox&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;In the traditional &quot;data-driven&quot; model, the goal was to remove human bias. We wanted to follow the numbers where they led. But AI has introduced a new variable: infinite production of plausible-sounding noise.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:55,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-3-1024x733.png&quot; alt=&quot;&quot; class=&quot;wp-image-55&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We are facing an &lt;strong&gt;AI Productivity Paradox&lt;/strong&gt;. AI tools allow us to generate code, queries, and reports at a speed we’ve never seen. But more output does not equal more value. If we aren’t careful, increased productivity just leads to an exponential growth of noise rather than signal.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;When you hand a powerful AI agent to a user without guardrails, you aren't democratizing data; you're democratizing chaos. AI amplifies everything—including poor communication, unclear priorities, and bad decisions&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;This is why I advocate for being &lt;strong&gt;Data-Informed&lt;/strong&gt;, not just Data-Driven.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Data-Informed Safety Net&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;I wrote about the data-informed concept back in 2023, but it is even more relevant today. Being data-informed means using data as a foundational input, but combining it with past experience, intuition, and judgment&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;In an era of AI hallucinations, the &quot;human in the loop&quot; isn't a bug; it's a feature. The biggest leap our teams need to make right now is not in Python or SQL, but in &lt;strong&gt;Business Acumen&lt;/strong&gt; and &lt;strong&gt;Critical Thinking&lt;/strong&gt;. AI provides the answers, but we must validate if they are correct and, more importantly, ensure we are solving the &lt;em&gt;right&lt;/em&gt; problem.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:56,&quot;width&quot;:&quot;629px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;aspectRatio&quot;:&quot;1.195307484290189&quot;,&quot;sizeSlug&quot;:&quot;full&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-full is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-4.png&quot; alt=&quot;&quot; class=&quot;wp-image-56&quot; style=&quot;aspect-ratio:1.195307484290189;width:629px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;If &quot;data-driven&quot; means letting the GPS drive the car, &quot;data-informed&quot; means using the GPS but looking out the window to make sure you aren't about to drive off a cliff because the map hasn't been updated.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Navigating the Paradoxes&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Transitioning a BI team to an AI-first model isn't linear. At Livesport, we are currently navigating two massive paradoxes that define our daily work.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;1. The Governance Paradox&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Common wisdom suggests that to democratize data, you should remove barriers. However, in the AI age, we found the opposite to be true. &lt;strong&gt;More access equals more governance needed, not less&lt;/strong&gt;.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;When anyone can ask an AI agent anything, who ensures the answer is correct?. Data quality issues become exponentially more dangerous when they are hidden behind a conversational interface. GDPR compliance and audit trails become murky.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We are moving from a centralized model where we controlled the &lt;em&gt;output&lt;/em&gt;, to a decentralized model where we must strictly govern the &lt;em&gt;inputs&lt;/em&gt;—the semantic layer, the metadata, and the guardrails.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:60,&quot;width&quot;:&quot;582px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-8-1024x846.png&quot; alt=&quot;&quot; class=&quot;wp-image-60&quot; style=&quot;width:582px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;2. The Dashboardless Paradox&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;There is a popular narrative that &quot;dashboards are dead&quot; and we will soon just talk to our data. I disagree.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Imagine a pilot flying a plane.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:list --&gt;
-&lt;ul class=&quot;wp-block-list&quot;&gt;&lt;!-- wp:list-item --&gt;
+&lt;ul class=&quot;wp-block-list&quot;&gt;
 &lt;li&gt;&lt;strong&gt;System:&lt;/strong&gt; &quot;Current airspeed?&quot;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Pilot:&lt;/strong&gt; &quot;I don't know, you tell me.&quot;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;System:&lt;/strong&gt; &quot;Analyzing request...&quot;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;&lt;/ul&gt;
-&lt;!-- /wp:list --&gt;
+&lt;/ul&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:54,&quot;width&quot;:&quot;754px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-2-1024x581.png&quot; alt=&quot;&quot; class=&quot;wp-image-54&quot; style=&quot;width:754px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;That is a disaster waiting to happen. You cannot have a conversation about the state of the business if you don't have situational awareness. We need a hybrid consumption model.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:list --&gt;
-&lt;ul class=&quot;wp-block-list&quot;&gt;&lt;!-- wp:list-item --&gt;
+&lt;ul class=&quot;wp-block-list&quot;&gt;
 &lt;li&gt;&lt;strong&gt;Strategic Dashboards&lt;/strong&gt; remain for executive insights and stability.&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Conversational Analytics&lt;/strong&gt; (AI) take over the ad-hoc questions and exploratory analytics&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;&lt;/ul&gt;
-&lt;!-- /wp:list --&gt;
+&lt;/ul&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:58,&quot;width&quot;:&quot;624px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-6-1024x712.png&quot; alt=&quot;&quot; class=&quot;wp-image-58&quot; style=&quot;width:624px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We aren't killing dashboards; we are making them purposeful. We are moving away from being a &quot;Report Factory&quot; where we churn out endless charts, to a &quot;Platform Model&quot; where we provide the tools for business users to find their own answers.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:53,&quot;width&quot;:&quot;677px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-1-1024x832.png&quot; alt=&quot;&quot; class=&quot;wp-image-53&quot; style=&quot;width:677px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Human Transformation&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The hardest part of this transformation isn't the technology—it's the people.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:59,&quot;width&quot;:&quot;630px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;aspectRatio&quot;:&quot;1.2161847718360839&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-7-1024x842.png&quot; alt=&quot;&quot; class=&quot;wp-image-59&quot; style=&quot;aspect-ratio:1.2161847718360839;width:630px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We are asking our teams to shift from being &quot;gatekeepers&quot; who control the data to &quot;enablers&quot; who teach others how to use it. This is a terrifying shift for many analysts. Their value proposition is changing from &quot;I know how to write the SQL query&quot; to &quot;I know how to orchestrate the AI agent.&quot;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;We see a distinct &quot;Curve of Change&quot; in our teams. It starts with &lt;strong&gt;Denial&lt;/strong&gt; (&quot;Will this go away?&quot;), moves through &lt;strong&gt;Resistance&lt;/strong&gt; (&quot;I need a clearer plan!&quot;), and eventually hits &lt;strong&gt;Acceptance&lt;/strong&gt; (&quot;I see the potential&quot;).&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:57,&quot;width&quot;:&quot;493px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2025/12/image-5-1024x841.png&quot; alt=&quot;&quot; class=&quot;wp-image-57&quot; style=&quot;width:493px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;As leaders, our job is to provide psychological safety during this transition. We have to give our teams &quot;permission to fail&quot; safely without blame. We prefer to fail fast and learn rather than wait for the perfect moment, because inactivity is a greater risk than imperfection.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Stop Being a Factory&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The traditional BI model is unsustainable. Linear growth in requests cannot be met with linear growth in headcount. We cannot hire our way out of the data deluge.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;By adopting a data-informed, AI-augmented approach, we aim for exponential scale. We are building a semantic layer and metadata tools to let the business serve itself, while our data engineers focus on architecture and our analysts focus on high-value strategy.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;There is no blueprint for this. Every company and every team must find its own way. But one thing is clear: the era of the BI team as a simple &quot;service unit&quot; is over. We are now the architects of the company's intelligence.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;We can teach the technology. The tools will get better. But the mindset—the willingness to be informed by data rather than ruled by it—that is the culture we must build by hand.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;</content:encoded>
+&lt;p&gt;We can teach the technology. The tools will get better. But the mindset—the willingness to be informed by data rather than ruled by it—that is the culture we must build by hand.&lt;/p&gt;</content:encoded>
       <wp:post_id>52</wp:post_id>
       <wp:post_date>2025-12-07 20:15:58</wp:post_date>
       <wp:post_type>post</wp:post_type>
@@ -215,97 +121,52 @@
       <dc:creator>admin</dc:creator>
       <guid isPermaLink="false">https://akucera.eu/?p=69</guid>
       <description/>
-      <content:encoded>&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;Google BigQuery recently introduced a new feature: the &lt;strong&gt;&quot;Overview&quot;&lt;/strong&gt; section. Think of this function as a central hub that simplifies navigation and overall control within this complex data analytics environment.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
+      <content:encoded>&lt;p&gt;Google BigQuery recently introduced a new feature: the &lt;strong&gt;&quot;Overview&quot;&lt;/strong&gt; section. Think of this function as a central hub that simplifies navigation and overall control within this complex data analytics environment.&lt;/p&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;BigQuery has long evolved beyond being a mere database or a storage solution for fast processing of big data. Today, it is a much more robust and comprehensive tool covering nearly the entire analytical lifecycle—from data ingestion to visualization.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;The Power of AI in BigQuery&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Google has been investing heavily in AI-related infrastructure and services, which is clearly reflected in BigQuery’s features. Within this environment, you can now leverage various AI agents, such as the &lt;strong&gt;Data Insight Agent&lt;/strong&gt;, &lt;strong&gt;Data Science Agent&lt;/strong&gt;, and &lt;strong&gt;Data Engineering Agent&lt;/strong&gt;. With their help, it is essentially possible to build an entire data warehouse, including data pipelines (ETL). While practice shows that complex tasks still require user patience and further investment from Google, the direction in which data analytics and business intelligence are heading is already clear.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:79,&quot;width&quot;:&quot;571px&quot;,&quot;height&quot;:&quot;auto&quot;,&quot;sizeSlug&quot;:&quot;full&quot;,&quot;linkDestination&quot;:&quot;none&quot;,&quot;align&quot;:&quot;center&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image aligncenter size-full is-resized&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/bq-overview.jpg&quot; alt=&quot;&quot; class=&quot;wp-image-79&quot; style=&quot;width:571px;height:auto&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;In the &quot;Overview&quot; section, you can view BigQuery through four distinct lenses:&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:list --&gt;
-&lt;ul class=&quot;wp-block-list&quot;&gt;&lt;!-- wp:list-item --&gt;
+&lt;ul class=&quot;wp-block-list&quot;&gt;
 &lt;li&gt;&lt;strong&gt;Data Analysis&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Data Science&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Data Engineering&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Data Administration&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;&lt;/ul&gt;
-&lt;!-- /wp:list --&gt;
+&lt;/ul&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:71,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-1024x297.png&quot; alt=&quot;&quot; class=&quot;wp-image-71&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;These sections can be filtered (toggled on or off) to customize the displayed content. This isn't just a feature list; it serves as a smart navigation tool across extensive documentation, making it significantly easier to find specific topics.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;Data Analysis and Data Science&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Beginners will appreciate the &lt;strong&gt;&quot;tour&quot;&lt;/strong&gt; feature—a series of tutorials integrated directly into the platform. These guides focus on practical tasks: how to upload your first data, create a visualization, or work with public datasets. This feature greatly accelerates the onboarding process.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:72,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-1-1024x451.png&quot; alt=&quot;&quot; class=&quot;wp-image-72&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;BigQuery offers numerous ways to process data. You can simply upload files from Google Sheets or formats like CSV and run queries immediately. For more advanced workflows, &lt;strong&gt;BigQuery Notebooks&lt;/strong&gt; are available.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:73,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-2-1024x398.png&quot; alt=&quot;&quot; class=&quot;wp-image-73&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;Democratizing Technology through AI&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Thanks to the tight integration with Vertex AI, you can create and call ML models directly within the BQ environment (and even using SQL). Deep knowledge of MLOps isn't required; basic SQL and a look at the documentation are enough. This &lt;a href=&quot;https://akucera.eu/business-intelligence/no-blueprint-exists-why-ai-made-me-double-down-on-being-data-informed/&quot; title=&quot;No Blueprint Exists: Why AI Made Me Double Down on Being “Data-Informed”&quot;&gt;approach democratizes advanced technology&lt;/a&gt;, making it accessible to a wider audience. Furthermore, a significant portion of the code today can be generated by the language model itself.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;For example, generating SQL queries using natural language is now a reality. Prompts should be factual and concise, without unnecessary complexity (I will cover this topic in more detail in an article planned for January 2026). The built-in model suggests a specific query that you can insert into the editor or further adjust using the &lt;strong&gt;&quot;refine&quot;&lt;/strong&gt; function. You can also use the &lt;strong&gt;&quot;query summary&quot;&lt;/strong&gt; feature for verification.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:75,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-3-1024x607.png&quot; alt=&quot;&quot; class=&quot;wp-image-75&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The trend is clear: analysts and data scientists will no longer have to write all code &quot;from scratch.&quot; This is a true game-changer that opens the world of AI and ML to business users, gradually blurring the lines between technical and non-technical roles.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;-- # prompt: Using the `google_cloud_release_notes.release_notes` table, write a BigQuery ML query to summarize the `description` field for entries published in the last 7 days.
 SELECT
  ml_generate_text_result.ml_generate_text_result AS summary
@@ -321,59 +182,32 @@ FROM
    STRUCT( 0.2 AS temperature,
      100 AS max_output_tokens ) )
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;For Advanced Users&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Experienced users can monitor query progress and resource consumption in detail, which is crucial for optimizing pipelines and costs (FinOps). BQ offers various &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;https://cloud.google.com/bigquery&quot;&gt;pricing models&lt;/a&gt;, and the documentation provides detailed &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; href=&quot;https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=en&quot;&gt;best practices for query optimization&lt;/a&gt;. Since BQ is a column-oriented database, mastering partitioning and clustering is essential to minimize the volume of data scanned.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:76,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-4-1024x619.png&quot; alt=&quot;&quot; class=&quot;wp-image-76&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;Data Engineering and Administration&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;This section focuses on the technical side: from data storage and transformation to scheduling and monitoring costs or troubleshooting pipeline errors.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:77,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-5-1024x461.png&quot; alt=&quot;&quot; class=&quot;wp-image-77&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;A key tool here is &lt;strong&gt;DataForm&lt;/strong&gt;—an orchestration feature for managing data pipelines directly within BQ. Google acquired it in 2020, and after full integration, it now serves as a core service. Pipelines are written in SQL with a JavaScript configuration layer. Additionally, BQ Studio offers low-code/no-code tools like &lt;strong&gt;Data Canvas&lt;/strong&gt; and &lt;strong&gt;Data Pipelines&lt;/strong&gt;.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:78,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-6-1024x282.png&quot; alt=&quot;&quot; class=&quot;wp-image-78&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;While AI agents assist with simpler tasks, it is still safer to rely on custom scripts for complex architectures (even if AI helps generate them). Full control over ETL processes cannot yet be entirely handed over to agents.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;FinOps and Permissions Management&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;In the realm of cost monitoring, user education is fundamental. It is vital to know that using &lt;code&gt;SELECT *&lt;/code&gt; is inefficient in BQ and that the database prefers a denormalized structure (unlike traditional relational databases using 3NF to 5NF). BQ also allows for &lt;strong&gt;capping&lt;/strong&gt;—setting limits (credits) on queries or specific time periods.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Permissions management allows for granular access control, from functional levels down to individual datasets and tables. This is a complex discipline where errors can be costly, so a cautious approach is necessary (though AI models can also be consulted for best practices here).&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;Finally, the &lt;strong&gt;Analytics Hub&lt;/strong&gt; deserves a mention. it enables secure data sharing within and outside the organization, opening the door to potential data monetization.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;</content:encoded>
+&lt;p&gt;Finally, the &lt;strong&gt;Analytics Hub&lt;/strong&gt; deserves a mention. it enables secure data sharing within and outside the organization, opening the door to potential data monetization.&lt;/p&gt;</content:encoded>
       <wp:post_id>69</wp:post_id>
       <wp:post_date>2026-01-11 08:23:42</wp:post_date>
       <wp:post_type>post</wp:post_type>
@@ -386,93 +220,50 @@ FROM
       <dc:creator>admin</dc:creator>
       <guid isPermaLink="false">https://akucera.eu/?p=100</guid>
       <description/>
-      <content:encoded>&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;Google BigQuery nedávno představilo novinku v podobě sekce &lt;strong&gt;„Overview“&lt;/strong&gt;. Tuto funkci si můžeme představit jako rozcestník, který usnadňuje navigaci a celkové ovládání tohoto komplexního datově analytického prostředí.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
+      <content:encoded>&lt;p&gt;Google BigQuery nedávno představilo novinku v podobě sekce &lt;strong&gt;„Overview“&lt;/strong&gt;. Tuto funkci si můžeme představit jako rozcestník, který usnadňuje navigaci a celkové ovládání tohoto komplexního datově analytického prostředí.&lt;/p&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;BigQuery již dávno není pouhou databází či úložištěm pro rychlou práci s velkými daty. Dnes jde o mnohem komplexnější a robustnější nástroj, který pokrývá téměř celý analytický proces – od importu dat až po jejich vizualizaci.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Síla AI v BigQuery&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Google v poslední době masivně investuje do infrastruktury a služeb spojených s AI, což se výrazně promítá i do funkcí BigQuery. V tomto prostředí můžete využívat řadu AI agentů, jako jsou &lt;strong&gt;Data Insight Agent&lt;/strong&gt;, &lt;strong&gt;Data Science Agent&lt;/strong&gt; či &lt;strong&gt;Data Engineering Agent&lt;/strong&gt;. S jejich pomocí lze v podstatě vybudovat celý datový sklad včetně datových pipeline (ETL). Praxe však ukazuje, že u složitějších úloh bude od uživatelů stále vyžadována trpělivost a od Googlu další investice. Přesto již dnes jasně vidíme směr, kterým se datová analytika a business intelligence ubírají.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;V rámci „Overview“ máte možnost nahlížet na BigQuery ze čtyř perspektiv:&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:list --&gt;
-&lt;ul class=&quot;wp-block-list&quot;&gt;&lt;!-- wp:list-item --&gt;
+&lt;ul class=&quot;wp-block-list&quot;&gt;
 &lt;li&gt;&lt;strong&gt;Datová analýza&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Data Science&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Data Engineering&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;
 
-&lt;!-- wp:list-item --&gt;
 &lt;li&gt;&lt;strong&gt;Administrace dat&lt;/strong&gt;&lt;/li&gt;
-&lt;!-- /wp:list-item --&gt;&lt;/ul&gt;
-&lt;!-- /wp:list --&gt;
+&lt;/ul&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:101,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-14-1024x297.png&quot; alt=&quot;&quot; class=&quot;wp-image-101&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Jednotlivé sekce lze filtrovat (zapínat a vypínat), čímž se přizpůsobuje zobrazený obsah. Nejde jen o přehled funkcí, které BQ nabízí, ale především o chytrou navigaci napříč rozsáhlou dokumentací, což výrazně usnadňuje cílené vyhledávání konkrétních témat.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Datová analýza a Data Science&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Začátečníci ocení funkci &lt;strong&gt;„tour“&lt;/strong&gt; – sérii tutoriálů integrovaných přímo v platformě. Tyto návody jsou zaměřeny na konkrétní úkoly: jak nahrát první data, vytvořit vizualizaci nebo pracovat s veřejnými datasety. Tato funkce výrazně urychluje orientaci a seznámení s platformou.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:102,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-15-1024x451.png&quot; alt=&quot;&quot; class=&quot;wp-image-102&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;BigQuery nabízí mnoho způsobů zpracování dat. Můžete jednoduše nahrát soubory z Google Sheets či formáty jako CSV a následně nad nimi provádět dotazy. Pro pokročilejší práci jsou k dispozici například &lt;strong&gt;BigQuery Notebooks&lt;/strong&gt;.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:103,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-16-1024x398.png&quot; alt=&quot;&quot; class=&quot;wp-image-103&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Demokratizace technologií díky AI&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Díky úzkému propojení s Vertex AI lze přímo v prostředí BQ (a dokonce pomocí SQL) vytvářet a volat ML modely. Není k tomu potřeba hluboká znalost MLOps; stačí základy SQL a dokumentace. Tento přístup demokratizuje pokročilé technologie a zpřístupňuje je širšímu okruhu uživatelů. Navíc dnes značnou část kódu dokáže vygenerovat samotný jazykový model.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Příkladem je generování SQL dotazů pomocí přirozeného jazyka. Prompt by měl být věcný a výstižný, bez zbytečných složitostí (podrobněji se tomuto tématu budu věnovat v článku plánovaném na leden 2026). Vestavěný model navrhne konkrétní query, kterou můžete vložit do editoru nebo dále ladit pomocí funkce &lt;strong&gt;„refine“&lt;/strong&gt;. Pro kontrolu lze využít i funkci &lt;strong&gt;„query summary“&lt;/strong&gt;.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:104,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-17-1024x607.png&quot; alt=&quot;&quot; class=&quot;wp-image-104&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Tento trend je jasný: analytici a datoví vědci již nebudou muset psát veškerý kód „od nuly“ (from scratch). Je to skutečný „game changer“, který otevírá svět AI a ML i byznysovým uživatelům a postupně stírá rozdíly mezi technickými a netechnickými pozicemi.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;-- # prompt: Using the `google_cloud_release_notes.release_notes` table, write a BigQuery ML query to summarize the `description` field for entries published in the last 7 days.
 SELECT
  ml_generate_text_result.ml_generate_text_result AS summary
@@ -488,59 +279,32 @@ FROM
    STRUCT( 0.2 AS temperature,
      100 AS max_output_tokens ) )
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Pro pokročilé uživatele&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Zkušení uživatelé mohou v BigQuery detailně sledovat průběh dotazů a spotřebu prostředků, což je klíčové pro optimalizaci pipelines a nákladů (FinOps). BQ nabízí různé&lt;a href=&quot;https://cloud.google.com/bigquery&quot;&gt; modely nacenění&lt;/a&gt; a dokumentace obsahuje podrobné&lt;a href=&quot;https://docs.cloud.google.com/bigquery/docs/best-practices-performance-compute?hl=en&quot;&gt; postupy pro optimalizaci dotazů&lt;/a&gt;. Vzhledem k tomu, že je BQ sloupcově orientovaná databáze, je zásadní umět pracovat s partitioningem či clusteringem, aby se minimalizoval objem procházených dat.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:105,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-18-1024x619.png&quot; alt=&quot;&quot; class=&quot;wp-image-105&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Data Engineering a Administrace&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Tato část se zaměřuje na technickou stránku: od ukládání a transformace dat přes scheduling (plánování) až po monitoring nákladů a řešení chyb v pipelines.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:106,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-19-1024x461.png&quot; alt=&quot;&quot; class=&quot;wp-image-106&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Klíčovým nástrojem je &lt;strong&gt;DataForm&lt;/strong&gt; – orchestrační funkce pro řízení datových pipelines přímo v BQ. Google jej koupil v roce 2020 a po plné integraci dnes slouží jako plnohodnotná služba. Pipelines se zde píší v SQL s konfigurační částí v JavaScriptu. V rámci BQ Studia lze navíc využít low-code/no-code nástroje jako &lt;strong&gt;Data Canvas&lt;/strong&gt; a &lt;strong&gt;Data Pipelines&lt;/strong&gt;.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:107,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/01/image-20-1024x282.png&quot; alt=&quot;&quot; class=&quot;wp-image-107&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;I když AI agenti pomáhají s jednoduššími úkoly, u komplexních architektur je stále jistější spoléhat na vlastní skripty (byť s pomocí AI při jejich generování). Kompletní kontrolu nad ETL procesy zatím agentům svěřit nelze.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;FinOps a správa oprávnění&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;V oblasti monitoringu nákladů je základem edukace uživatelů. Je důležité vědět, že v BQ se nevyplácí používat SELECT * a že databáze preferuje denormalizovanou strukturu (na rozdíl od tradičních relačních databází pracujících s 3NF až 5NF). BQ také umožňuje nastavit &lt;strong&gt;capping&lt;/strong&gt; – limity (kredity) na dotazy či určité období.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Správa oprávnění (Permissions) umožňuje detailní nastavení přístupů od úrovně funkcí až po jednotlivé datasety a tabulky. Jde o komplexní disciplínu, kde se chyby mohou vymstít, proto je potřeba postupovat obezřetně (i když i zde lze některé postupy konzultovat s AI modelem).&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;Na závěr stojí za zmínku &lt;strong&gt;Analytics Hub&lt;/strong&gt;, který umožňuje bezpečné sdílení dat v rámci organizace i mimo ni, což otevírá dveře k jejich případné monetizaci.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;</content:encoded>
+&lt;p&gt;Na závěr stojí za zmínku &lt;strong&gt;Analytics Hub&lt;/strong&gt;, který umožňuje bezpečné sdílení dat v rámci organizace i mimo ni, což otevírá dveře k jejich případné monetizaci.&lt;/p&gt;</content:encoded>
       <wp:post_id>100</wp:post_id>
       <wp:post_date>2026-01-11 08:57:25</wp:post_date>
       <wp:post_type>post</wp:post_type>
@@ -553,83 +317,40 @@ FROM
       <dc:creator>admin</dc:creator>
       <guid isPermaLink="false">https://akucera.eu/?p=120</guid>
       <description/>
-      <content:encoded>&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
+      <content:encoded>&lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;!-- wp:heading --&gt;
-&lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
-
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Tableau Cloud gives you a rich Activity Log. User logins, dashboard views, permission changes — it's all there. The catch? It's delivered as a stream of polymorphic JSON files.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&quot;Polymorphic&quot; is a fancy way of saying: a `security` event and an `access_content` event share almost no fields. The schema changes depending on what happened. Our goal was to take this mess and turn it into a clean, structured Silver Layer — all 193 unique fields, nothing lost.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Sounds straightforward. It wasn't.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The First Attempt (and Why It Failed)&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Our first instinct was to use BigQuery's native Data Transfer Service (DTS) to load the JSON files directly from S3. Clean, simple, minimal moving parts. In theory.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;In practice: two specific problems killed it.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&lt;strong&gt;1. Polymorphic Chaos.&lt;/strong&gt; BigQuery's JSON loader assumes a reasonably consistent schema. Tableau logs don't have that. Because the structure shifts based on `eventCategory`, auto-detection either crashed or silently skipped rows with &quot;unexpected&quot; fields. Neither outcome is acceptable in an audit log.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&lt;strong&gt;2. The Quoting Nightmare.&lt;/strong&gt; JSON strings are wrapped in double quotes. CSV and JSON parsers frequently get confused when those strings contain nested quotes or special characters. The result was truncated data — which, again, is not something you want when you're building a compliance layer.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The lesson: ingestion and parsing need to be decoupled. We moved the files from S3 to Google Cloud Storage (GCS) and built a &quot;Pseudo-CSV&quot; staging area as the bridge.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:image {&quot;id&quot;:122,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/03/Screenshot-2026-03-05-at-20.29.28-1024x237.png&quot; alt=&quot;&quot; class=&quot;wp-image-122&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Ingestion Layer: Treating JSON Like a Single-Column CSV&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;This is the part that feels wrong until it clicks. We loaded each JSON file as if it were a one-column CSV — the entire JSON blob sitting in a single field. BigQuery stores it as a raw string. We parse it later.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;To make this work, two configuration decisions matter a lot.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&lt;strong&gt;The Delimiter.&lt;/strong&gt; If you use a comma, BigQuery will try to split your JSON every time it sees one inside an array or object. We used a pipe (`|`) — a character that never appears in the data.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&lt;strong&gt;The Quote Character.&lt;/strong&gt; Set it to empty. If BigQuery thinks a double-quote is the start of a text block, it will misread the entire JSON. An empty quote character tells it to stop trying.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Two additional safety settings worth enabling: `allow_jagged_rows` (so a system message or malformed row doesn't kill the entire load job) and `ignore_unknown_values` (a catch-all for anything unexpected).&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;
 -- Pseudo-CSV External Table Definition
 
@@ -648,41 +369,23 @@ quote = '',
 allow_jagged_rows = true
 
 );&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The data is now in BigQuery. It's one ugly string column. That's exactly what we want.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:121,&quot;sizeSlug&quot;:&quot;full&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-full&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/03/image.png&quot; alt=&quot;&quot; class=&quot;wp-image-121&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;The Silver Layer: 193 Fields Without Writing 193 Lines of SQL&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Here's where Dataform earns its place.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Extracting 193 fields manually — `JSON_VALUE(raw_content, '$.field')` repeated 193 times — is not just tedious. It's a maintenance trap. One schema change from Tableau and you're hunting through hundreds of lines of SQL to find what broke.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Instead, we used Dataform's JavaScript layer to generate the SQL dynamically.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Step 1: Bridge the projects.&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Our raw data lives in a Staging Project. The transformations run in a special dedicated transformation Project. A simple `declare` statement connects them.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;// definitions/sources.js
 
 declare({
@@ -696,25 +399,11 @@ schema: &quot;tableau_s3_export&quot;,
 name: &quot;tableau_logs_staging&quot;
 
 });&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Step 2: Define the schema once.&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;All 193 fields go into a single JavaScript array. This is the single source of truth — add a field here, and it appears in the output automatically.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;// includes/tableau_schema.js
 
 const ALL_FIELDS = &amp;#91;
@@ -728,17 +417,11 @@ const ALL_FIELDS = &amp;#91;
 ];
 
 module.exports = { ALL_FIELDS };&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:heading {&quot;level&quot;:3} --&gt;
 &lt;h3 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Step 3: Loop, don't repeat.&lt;/strong&gt;&lt;/h3&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The `.sqlx` file maps over the array and generates every `JSON_VALUE` extraction automatically. We added partitioning by date and clustering by `eventCategory` and `eventType` — standard practice for a table this wide if you want queries to stay fast and costs to stay sane.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:code --&gt;
 &lt;pre class=&quot;wp-block-code&quot;&gt;&lt;code&gt;config {
 
 type: &quot;table&quot;,
@@ -780,55 +463,26 @@ ${tableau_schema.ALL_FIELDS.map(field =&amp;gt;
 raw_content
 
 FROM base&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- /wp:code --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;193 fields. Roughly 20 lines of logic. Adding a new field tomorrow means editing one array.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:image {&quot;id&quot;:123,&quot;sizeSlug&quot;:&quot;large&quot;,&quot;linkDestination&quot;:&quot;none&quot;} --&gt;
 &lt;figure class=&quot;wp-block-image size-large&quot;&gt;&lt;img src=&quot;https://akucera.eu/wp-content/uploads/2026/03/image-1-1024x530.png&quot; alt=&quot;&quot; class=&quot;wp-image-123&quot;/&gt;&lt;/figure&gt;
-&lt;!-- /wp:image --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1U10QKSDAeMG9bGbC07b028TV6VlWtvSOZwRo8rVjUjc/edit?gid=884377190#gid=884377190&quot;&gt;https://docs.google.com/spreadsheets/d/1U10QKSDAeMG9bGbC07b028TV6VlWtvSOZwRo8rVjUjc/edit?gid=884377190#gid=884377190&lt;/a&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:heading --&gt;
 &lt;h2 class=&quot;wp-block-heading&quot;&gt;&lt;strong&gt;Why This Architecture Holds Up&lt;/strong&gt;&lt;/h2&gt;
-&lt;!-- /wp:heading --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;The Pseudo-CSV staging layer is deliberately dumb — and that's the point. It doesn't care what Tableau puts in the JSON. Whatever arrives gets stored as a string. The structure is enforced downstream, in Dataform, where we have full control.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;Three things this buys us:&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;- &lt;strong&gt;Resilience&lt;/strong&gt; If Tableau adds, removes, or renames fields tomorrow, the ingestion layer doesn't break. We update the JavaScript array and redeploy.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;- &lt;strong&gt;Dry code&lt;/strong&gt; One schema definition drives everything. No duplication, no drift between what's in the table and what's in the documentation.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
 &lt;p&gt;- &lt;strong&gt;Performance.&lt;/strong&gt; Partition by time, cluster by category. The Silver Layer is ready for dashboards and ad-hoc analysis without surprises on the billing side.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
 
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;Decoupling ingestion from transformation is not a new idea. But on a dataset this polymorphic, it's the only approach that actually scales.&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;
-
-&lt;!-- wp:paragraph --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- /wp:paragraph --&gt;</content:encoded>
+&lt;p&gt;Decoupling ingestion from transformation is not a new idea. But on a dataset this polymorphic, it's the only approach that actually scales.&lt;/p&gt;</content:encoded>
       <wp:post_id>120</wp:post_id>
       <wp:post_date>2026-03-06 10:35:40</wp:post_date>
       <wp:post_type>post</wp:post_type>
