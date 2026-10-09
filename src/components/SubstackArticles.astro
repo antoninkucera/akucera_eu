@@ -1,0 +1,120 @@
+---
+interface SubstackPost {
+  title: string;
+  link: string;
+  pubDate: string;
+  description: string;
+}
+
+let posts: SubstackPost[] = [];
+
+try {
+  const res = await fetch('https://antoninkucera.substack.com/feed', {
+    headers: { 'User-Agent': 'Mozilla/5.0' }
+  });
+  if (res.ok) {
+    const xmlText = await res.text();
+    const itemMatches = xmlText.match(/<item>[\s\S]*?<\/item>/g) || [];
+    
+    for (const itemXml of itemMatches) {
+      const titleMatch = itemXml.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/) || itemXml.match(/<title>(.*?)<\/title>/);
+      const linkMatch = itemXml.match(/<link>(.*?)<\/link>/);
+      const pubDateMatch = itemXml.match(/<pubDate>(.*?)<\/pubDate>/);
+      const descMatch = itemXml.match(/<description><!\[CDATA\[(.*?)\]\]><\/description>/) || itemXml.match(/<description>(.*?)<\/description>/);
+
+      const title = titleMatch ? titleMatch[1].trim() : '';
+      const link = linkMatch ? linkMatch[1].trim() : '';
+      const pubDateRaw = pubDateMatch ? pubDateMatch[1].trim() : '';
+      let description = descMatch ? descMatch[1].replace(/<[^>]*>/g, '').trim() : '';
+
+      if (!title || title.toLowerCase().includes('coming soon')) continue;
+
+      if (description.length > 140) {
+        description = description.slice(0, 140) + '...';
+      }
+
+      let formattedDate = pubDateRaw;
+      try {
+        const d = new Date(pubDateRaw);
+        formattedDate = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      } catch (e) {}
+
+      posts.push({ title, link, pubDate: formattedDate, description });
+      if (posts.length >= 4) break;
+    }
+  }
+} catch (e) {
+  console.warn('Failed to fetch Substack RSS feed:', e);
+}
+
+if (posts.length === 0) {
+  posts = [
+    {
+      title: "Mastering Tableau Cloud Logs: From S3 to a hundreds fields in BigQuery",
+      link: "https://antoninkucera.substack.com/p/mastering-tableau-cloud-logs-from-s3-to-a-hundreds-fields-in-bigquery",
+      pubDate: "Mar 6, 2026",
+      description: "How to process, transform and ingest Tableau Cloud audit logs into BigQuery for enterprise telemetry."
+    },
+    {
+      title: "No Blueprint Exists: Why AI Made Me Double Down on Being 'Data-Informed'",
+      link: "https://antoninkucera.substack.com/p/no-blueprint-exists-why-ai-made-me-double-down-on-being-data-informed",
+      pubDate: "Dec 7, 2025",
+      description: "Navigating the AI era requires strategy, governance, and data literacy over blind automation."
+    },
+    {
+      title: "BigQuery Overview: A New Navigation Hub in the Complex analytics platform",
+      link: "https://antoninkucera.substack.com/p/bigquery-overview-a-new-navigation-hub-in-the-complex-analytics-platform",
+      pubDate: "Jan 11, 2026",
+      description: "A practical guide to navigating BigQuery tools, datasets, and modern cloud architecture."
+    }
+  ];
+}
+---
+
+<div class="space-y-4">
+  <div class="flex items-center justify-between">
+    <h3 class="text-xl font-bold text-white font-serif">Latest Substack Articles</h3>
+    <a 
+      href="https://antoninkucera.substack.com/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="text-xs font-mono text-orange-400 hover:underline flex items-center gap-1 font-semibold"
+    >
+      View all on Substack &rarr;
+    </a>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+    {posts.map((post) => (
+      <a 
+        href={post.link} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-orange-500/40 transition-all group flex flex-col justify-between"
+      >
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-mono text-orange-400/90 font-medium px-2 py-0.5 rounded-md bg-orange-500/10 border border-orange-500/20">
+              {post.pubDate}
+            </span>
+            <svg class="w-4 h-4 text-slate-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </div>
+
+          <h4 class="text-base font-bold text-white group-hover:text-orange-400 transition-colors leading-snug">
+            {post.title}
+          </h4>
+
+          {post.description && (
+            <p class="text-xs text-slate-400 line-clamp-3 leading-relaxed">
+              {post.description}
+            </p>
+          )}
+        </div>
+
+        <div class="pt-4 flex items-center gap-1 text-xs font-mono text-orange-400 font-medium group-hover:underline">
+          Read article &rarr;
+        </div>
+      </a>
+    ))}
+  </div>
+</div>
