@@ -23,6 +23,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || "https://akucera.
     <meta name="author" content="Antonín Kučera" />
     <link rel="canonical" href={canonicalURL} />
 
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-JS59QVZX6T"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JS59QVZX6T');
+    </script>
+
     <!-- hreflang tags for i18n -->
     <link rel="alternate" hreflang="cs" href="https://akucera.eu/" />
     <link rel="alternate" hreflang="en" href="https://akucera.eu/en/" />
