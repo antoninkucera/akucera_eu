@@ -168,9 +168,11 @@ export const contentEN: Content = {
       {
         id: "education",
         title: "Education & Data Literacy",
-        description: "Fostering data literacy across organizations, mentoring analytics teams, public speaking at conferences, and hosting data podcasts.",
-        tags: ["Mentorship", "Podcasts", "Public Speaking"],
-        icon: "education"
+        description: "Fostering data literacy across organizations, mentoring non-profit and analytics teams (e.g. at Dobrodata), public speaking at conferences, and hosting data podcasts.",
+        tags: ["Mentorship", "Dobrodata", "Public Speaking"],
+        icon: "education",
+        link: "https://dobrodata.cz/mentori/antonin-kucera/",
+        linkText: "Mentoring @ Dobrodata →"
       },
       {
         id: "projects",
@@ -391,9 +393,11 @@ export const contentCS: Content = {
       {
         id: "education",
         title: "Vzdělávání & Datová Gramotnost",
-        description: "Rozvíjení datové gramotnosti napříč firmou, mentoring analytických týmů, vystupování na konferencích a natáčení podcastů.",
-        tags: ["Mentoring", "Podcasty", "Přednášky"],
-        icon: "education"
+        description: "Rozvíjení datové gramotnosti napříč firmou, mentoring neziskových i analytických týmů (mj. v Dobrodata), přednášky a podcasty.",
+        tags: ["Mentoring", "Dobrodata", "Přednášky"],
+        icon: "education",
+        link: "https://dobrodata.cz/mentori/antonin-kucera/",
+        linkText: "Mentoring v Dobrodata →"
       },
       {
         id: "projects",

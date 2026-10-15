@@ -10,6 +10,7 @@ Antonin Kucera is a data leader with over 13 years of experience in digital cons
 - Substack Newsletter & Blog: https://antoninkucera.substack.com/
 - GitHub: https://github.com/antoninkucera
 - LinkedIn: https://www.linkedin.com/in/antoninkucera/
+- Dobrodata Mentoring: https://dobrodata.cz/mentori/antonin-kucera/
 
 ## LLM Resources
 - Full profile description: https://akucera.eu/llms-full.txt

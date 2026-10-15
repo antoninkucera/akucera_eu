@@ -22,4 +22,5 @@ His central philosophy is building **data-informed, not blindly data-driven** or
 - Substack Blog: https://antoninkucera.substack.com/
 - GitHub: https://github.com/antoninkucera
 - LinkedIn: https://www.linkedin.com/in/antoninkucera/
+- Dobrodata Mentoring: https://dobrodata.cz/mentori/antonin-kucera/
 - Direct Email: antonio.kucera@gmail.com
