@@ -41,6 +41,7 @@ export interface Content {
     title2: string;
     description: string;
     btnSubstack: string;
+    btnVector87: string;
     btnGithub: string;
   };
   bio: {
@@ -106,6 +107,7 @@ export const contentEN: Content = {
     title2: "not data-driven",
     description: "Hello! I am Antonín Kučera, a data leader with over 13 years of experience in digital consulting and business intelligence. Currently, I work as the Head of Business Intelligence at Livesport, leading teams of analysts, engineers, and scientists.",
     btnSubstack: "Read my Substack",
+    btnVector87: "Vector87 (Market Telemetry)",
     btnGithub: "GitHub Profile"
   },
   bio: {
@@ -185,10 +187,12 @@ export const contentEN: Content = {
       },
       {
         id: "investments",
-        title: "Tech Investments & Trends",
-        description: "Evaluating emerging cloud technology stacks, cost-optimization strategies, AI infrastructure, and long-term tech investments.",
-        tags: ["Tech Trends", "Cloud Costs", "Fintech"],
-        icon: "tech"
+        title: "Tech Investments & Market Telemetry",
+        description: "Evaluating emerging cloud tech, AI infrastructure, and quantitative telemetry of the AI & Data job market across 500+ S&P enterprises at Vector87.",
+        tags: ["Vector87", "Market Telemetry", "AI Trends", "Fintech"],
+        icon: "tech",
+        link: "https://vector87.com/",
+        linkText: "vector87.com →"
       }
     ]
   },
@@ -331,6 +335,7 @@ export const contentCS: Content = {
     title2: "nejen data-driven",
     description: "Jsem Antonín Kučera, lídr v oblasti dat a Business Intelligence s více než 13 lety praxe. V Livesportu vedu BI, Data Science a Ad Operations týmy. Pomáhám firmám přejít od pouhého shromažďování dat k jejich reálnému využití pro rozhodování.",
     btnSubstack: "Číst Substack",
+    btnVector87: "Vector87 (Tržní telemetrie)",
     btnGithub: "GitHub"
   },
   bio: {
@@ -410,10 +415,12 @@ export const contentCS: Content = {
       },
       {
         id: "investments",
-        title: "Investice & Technologie",
-        description: "Hodnocení moderních cloudových technologií, optimalizace cloudových nákladů (FinOps), AI infrastruktura a investiční trendy.",
-        tags: ["Technologické Trendy", "FinOps", "Investice"],
-        icon: "tech"
+        title: "Investice & Tržní Telemetrie",
+        description: "Hodnocení moderních cloudových technologií, AI infrastruktury a kvantitativní telemetrie trhu práce v oblasti AI a dat napříč S&P 500 na Vector87.",
+        tags: ["Vector87", "Tržní telemetrie", "AI Trendy", "Fintech"],
+        icon: "tech",
+        link: "https://vector87.com/",
+        linkText: "vector87.com →"
       }
     ]
   },

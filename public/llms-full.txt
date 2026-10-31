@@ -1,4 +1,4 @@
-# Antonin Kucera — Comprehensive Profile & Career Summary
+# Antonin Kucera - Comprehensive Profile & Career Summary
 
 ## Role & Mission
 Antonin Kucera is the Head of Business Intelligence, Data Science & Ad Operations at Livesport, a global sports media company.
@@ -20,6 +20,7 @@ His central philosophy is building **data-informed, not blindly data-driven** or
 ## Public Links
 - Website: https://akucera.eu
 - Substack Blog: https://antoninkucera.substack.com/
+- Vector87 (Market Telemetry): https://vector87.com/
 - GitHub: https://github.com/antoninkucera
 - LinkedIn: https://www.linkedin.com/in/antoninkucera/
 - Dobrodata Mentoring: https://dobrodata.cz/mentori/antonin-kucera/
