@@ -10,6 +10,8 @@ His central philosophy is building **data-informed, not blindly data-driven** or
 - **Key Leadership:** Expanded Livesport's data team into 3 dedicated analytical streams serving hundreds of millions of users globally.
 
 ## Public Speaking, Podcasts & Events
+- **Primetime for Big Data 2026:** Panel "AI uz mame. A co ted?" (Upcoming)
+- **IDC CIO Summit Czechia 2026:** Panel "Technical Debt as a Strategic Lever"
 - **DataDay 2025:** "BI leader: agent with a license to change"
 - **IT Talks Podcast (2025):** Data strategy and BI leadership in global tech
 - **DataDay 2024:** "Data Cleaning with SQL and ML"

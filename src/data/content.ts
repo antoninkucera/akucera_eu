@@ -201,6 +201,22 @@ export const contentEN: Content = {
     subtitle: "I am passionate about sharing my experience in building data teams and advocating for data culture.",
     items: [
       {
+        date: "26.11.2026",
+        title: "Panel: AI už máme. A co teď?",
+        event: "Primetime for Big Data 2026",
+        eventLink: "https://www.primetimefor.cz",
+        talkLink: "https://www.primetimefor.cz/program",
+        type: "conference"
+      },
+      {
+        date: "26.5.2026",
+        title: "Panel: Technical Debt as a Strategic Lever",
+        event: "IDC CIO Summit Czechia 2026",
+        eventLink: "https://event.idc.com/event/cio-summit-czechia/",
+        talkLink: "https://event.idc.com/event/cio-summit-czechia/agenda/",
+        type: "conference"
+      },
+      {
         date: "27.11.2025",
         title: "BI leader: agent with a licence \"to change\"",
         event: "DataDay 2025",
@@ -239,14 +255,14 @@ export const contentEN: Content = {
       },
       {
         date: "23.5.2023",
-        title: "dCast — I see business intelligence as the brain of the company",
+        title: "dCast - I see business intelligence as the brain of the company",
         event: "dCast Podcast",
         talkLink: "https://open.spotify.com/episode/3KPbPpOyFbZvxO5GQXOfvl?si=9J6vYAz5TGCK-brA823Snw",
         type: "podcast"
       },
       {
         date: "26.1.2023",
-        title: "DataTalk podcast #23 — Head of BI at Livesport",
+        title: "DataTalk podcast #23 - Head of BI at Livesport",
         event: "DataTalk Podcast",
         talkLink: "https://open.spotify.com/episode/4YYogcfxPUOQYBEgid4czi",
         additionalLinks: [
@@ -257,7 +273,7 @@ export const contentEN: Content = {
       },
       {
         date: "4.1.2023",
-        title: "SharkTalk — Not all analysts are the same!",
+        title: "SharkTalk - Not all analysts are the same!",
         event: "SharkTalk",
         videoLink: "https://www.youtube.com/watch?v=13gLng75IgQ",
         type: "podcast"
